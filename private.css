@@ -1,0 +1,202 @@
+.logo{
+    position: relative;
+    padding-left: 30px;
+    padding-top:2px;
+    top:-12px;
+}
+.Navbar {
+    position: absolute;
+    top: 33px;
+    left: 250px;
+    width: auto;
+    height: 45px;
+    padding-top: 34px;
+    float: left;
+  }
+  
+  .Navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  .Navbar li {
+    float: left;
+    position: relative;
+    margin-right: 20px ;
+  }
+  
+  .Navbar li a {
+    color: black;
+    text-align: center;
+    padding: 14px 23px;
+    text-decoration: none;
+    position: relative;
+    transition: text-decoration 0.3s ease;
+  }
+  .Navbar li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Navbar li a:hover:before {
+    background-color: black;
+  }
+.Right{
+    position: absolute;
+    right: 0;
+    float:right;
+    margin-top: -110px;
+   
+}
+.Right p{
+    display: inline-block;
+    margin-right: 20px ;
+}
+.Right p a{
+    text-decoration: none;
+    color: black;
+}
+.Right button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 39px ;
+  }
+  
+  .Right button:hover {
+    background-color: #f2f2f2;
+  }
+.Section{
+    font-size: 75px ;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:600px;
+}
+.Section2{
+    font-size: 20px ;
+    margin-top:-65px;
+    word-spacing: 7px ;
+    width:500px;
+}
+.Section button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: -12px;
+
+}
+.Section button:nth-child(2){
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color:white ;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: -12px ;
+}
+.store-content{
+    display:flex;
+    float:right;
+    margin-top: -400px;
+    margin-right: 200px;
+}
+.numbers p::after{
+  content:"";
+  margin-left: 5px;
+ 
+}
+.numbers p{
+  margin:0;
+}
+.numbers p:not(:last-child) {
+  margin-right: 60px;
+}
+.label p:not(:last-child){
+  margin-right: 50px ;
+
+}
+.Quality {
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+  margin-right:23px ;
+  margin-left: 300px ;
+  position: relative;
+}
+.Quality img {
+  width: 60px;
+  margin-right: -100px;
+}
+
+.Quality label {
+  margin-top: 120px;
+  margin-right: 110px ;
+  font-weight: bold;
+  text-align: center;
+}
+.last-content{
+  margin-top: -520px;
+  margin-left: 700px ;
+}
+.last-content p{
+  font-size: 43px ;
+  font-weight: bold;
+  margin-left: 223px ;
+  margin-right: 100px ;
+}
+.email{
+  border-radius: 20px ;
+  width: 444px ;
+  height: 40px ;
+  margin-top: 10px ;
+  margin-left: 223px ;
+  border: 1px solid #ccc;
+  display: block;
+}
+input[type="email"]::placeholder {  
+  font-size: 0.8rem;
+  padding-left: 6px ;
+}
+.btn-second{
+  position:absolute;
+  margin-top: -40px;
+  margin-left: 533px ;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 20px ;
+  width:140px;
+  height:40px;
+}
+  
